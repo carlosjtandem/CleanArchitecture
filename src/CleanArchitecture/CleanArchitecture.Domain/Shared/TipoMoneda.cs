@@ -2,7 +2,7 @@ using System.Net.NetworkInformation;
 using System.Runtime.InteropServices;
 using System.Xml.Serialization;
 
-namespace CleanArchitecture.Domain.Vehiculos;
+namespace CleanArchitecture.Domain.Shared;
 
 //Este record es mas elaborado
 public record TipoMoneda
