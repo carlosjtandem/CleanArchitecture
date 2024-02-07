@@ -65,7 +65,7 @@ internal sealed class SearchVehiculosQueryHandler
 
 
         var vehiculos = await connection
-            .QueryAsync<VehiculoResponse, DireccionResponse, VehiculoResponse>  // quiero que me devuelva un conjunto de 3 resultados
+            .QueryAsync<VehiculoResponse, DireccionResponse, VehiculoResponse>  // quiero que me devuelva un conjunto de 3 resultados deonde los dos primeros grupos (VehiculoResponse, DireccionResponse) van a estar incluidos en el padre (VehiculoResponse) que es el 3er parametro
             (
                 sql,
                 (vehiculo, direccion) =>  // este EXPRESSION permite  devolver dos objetos
