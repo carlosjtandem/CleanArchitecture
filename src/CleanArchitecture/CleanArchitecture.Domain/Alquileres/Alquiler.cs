@@ -77,7 +77,7 @@ public sealed class Alquiler : Entity
             fechaCreacion
         );
 
-        alquiler.RaiseDomainEvent(new AlquilerReservadoDomainEvent(alquiler.Id!));
+        alquiler.RaiseDomainEvent(new AlquilerReservadoDomainEvent(alquiler.Id!));  // Publica un evento en un queue para que otro componente en el futuro tome el evento. // El componente que va a consumir es
 
         //fecha que se realiza el alquiler
         vehiculo.FechaUltimaAlquiler = fechaCreacion;
