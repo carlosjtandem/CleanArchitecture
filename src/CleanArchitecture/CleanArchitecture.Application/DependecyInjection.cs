@@ -1,5 +1,7 @@
 using System.Runtime.Serialization;
+using CleanArchitecture.Application.Abstractions.Behaviors;
 using CleanArchitecture.Domain.Alquileres;
+using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CleaArchitecture.Application;
@@ -12,8 +14,13 @@ public static class DependencyInjection
         services.AddMediatR(configuration =>
         {
             configuration.RegisterServicesFromAssembly(typeof(DependencyInjection).Assembly);
+            //registro del servicio para logging
+            configuration.AddOpenBehavior(typeof(LogginBehavior<,>));  //registro la clase generica con dos parametros, para eso typeof <,>+
+            configuration.AddOpenBehavior(typeof(ValidationBehavior<,>));
         });
 
+        services.AddValidatorsFromAssembly(typeof(DependencyInjection).Assembly);
+        
         services.AddTransient<PrecioService>();
         return services;
     }

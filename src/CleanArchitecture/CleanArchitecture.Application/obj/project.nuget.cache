@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "yJcHMD2Wn+Y+W2GHmgWiXUH9G7bN/HgVEyXCaP5Tb18uCpKpKqp0IYkZ8OrkG6hbQAJMn8LDeTkvudyprGSk5Q==",
+  "dgSpecHash": "pRpCAH7oC5n/DRzU1EoJmgCulO0RbZ490lnM619zDg5YA/z3yQy9zlWaXXeBqXOPSXrYuTDEs0+hNdPDdoeQLQ==",
   "success": true,
   "projectFilePath": "C:\\Sources\\Microsoft\\CleanArchitecture\\src\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlos.aucancela\\.nuget\\packages\\dapper\\2.1.15\\dapper.2.1.15.nupkg.sha512",
+    "C:\\Users\\carlos.aucancela\\.nuget\\packages\\fluentvalidation\\11.8.0\\fluentvalidation.11.8.0.nupkg.sha512",
+    "C:\\Users\\carlos.aucancela\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.8.0\\fluentvalidation.dependencyinjectionextensions.11.8.0.nupkg.sha512",
     "C:\\Users\\carlos.aucancela\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\carlos.aucancela\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\carlos.aucancela\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    "C:\\Users\\carlos.aucancela\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-rc.2.23479.6\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "C:\\Users\\carlos.aucancela\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0-rc.2.23479.6\\microsoft.extensions.logging.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512"
   ],
   "logs": []
 }
