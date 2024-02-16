@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FWVCPixaU9o3UTEpneT/wxLz/knfbZ/ebXlwbG6jLXOEM2jcn+K97i9yDWu8ao4PtXwANEhP66a1MY63mKIjBQ==",
+  "dgSpecHash": "yEAlfnT3kVDNeoRv8umjKhgn7vWDX/xcJnsIPCEvCH8+qKfxO8dhzcV4jsH2BAOJP3InCjSQPghLKZwbXfzXmw==",
   "success": true,
-  "projectFilePath": "C:\\Sources\\Microsoft\\CleanArchitecture\\src\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+  "projectFilePath": "C:\\Code\\Udemy\\CleanArchitecture\\src\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\carlos.aucancela\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512"
+    "C:\\Users\\Usuario\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512"
   ],
   "logs": []
 }

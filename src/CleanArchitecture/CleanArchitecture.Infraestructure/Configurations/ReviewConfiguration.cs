@@ -1,3 +1,4 @@
+using CleaArchitecture.Domain.Reviews;
 using CleanArchitecture.Domain.Alquileres;
 using CleanArchitecture.Domain.Reviews;
 using CleanArchitecture.Domain.Users;
@@ -33,9 +34,6 @@ internal sealed class ReviewConfiguration : IEntityTypeConfiguration<Review>
         builder.HasOne<User>()
         .WithMany()
         .HasForeignKey(review => review.UserId);
-
-
-
 
     }
 }

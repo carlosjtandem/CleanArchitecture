@@ -11,9 +11,9 @@ internal sealed class UserConfiguration : IEntityTypeConfiguration<User>
         )
     {
         builder.ToTable("users");
-        builder.HasKey(user => user.Id);
+        builder.HasKey(user => user.Id);  // clave primaria
 
-        builder.Property(user => user.Nombre)
+        builder.Property(user => user.Nombre)  // nombre es un object value
             .HasMaxLength(200)
             .HasConversion(nombre => nombre!.Value, value=> new Nombre(value));
 
