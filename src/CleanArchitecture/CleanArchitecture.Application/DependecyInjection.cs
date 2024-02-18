@@ -4,7 +4,7 @@ using CleanArchitecture.Domain.Alquileres;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CleaArchitecture.Application;
+namespace CleanArchitecture.Application;
 
 public static class DependencyInjection
 {  // Como es la encargada de registra los servicios entonces por eso es static

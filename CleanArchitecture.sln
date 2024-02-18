@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Applicati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Infraestructure", "src\CleanArchitecture\CleanArchitecture.Infraestructure\CleanArchitecture.Infraestructure.csproj", "{0ED938F7-2E25-4711-BDB7-18C681EF2EC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Api", "src\CleanArchitecture\CleanArchitecture.Api\CleanArchitecture.Api.csproj", "{F3D926F4-4141-4CC9-99C4-B4742600B93F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,11 +36,16 @@ Global
 		{0ED938F7-2E25-4711-BDB7-18C681EF2EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0ED938F7-2E25-4711-BDB7-18C681EF2EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0ED938F7-2E25-4711-BDB7-18C681EF2EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3D926F4-4141-4CC9-99C4-B4742600B93F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3D926F4-4141-4CC9-99C4-B4742600B93F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3D926F4-4141-4CC9-99C4-B4742600B93F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3D926F4-4141-4CC9-99C4-B4742600B93F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1F190F6A-027D-48FF-853C-FE2E8C66B4AC} = {5C8A41BD-0A2B-4CC4-B96D-238493F0232B}
 		{072066F1-AB17-47A8-AD9D-E418687CC7DC} = {1F190F6A-027D-48FF-853C-FE2E8C66B4AC}
 		{49FD9045-8D39-42CA-8453-9FD3FAA8E304} = {1F190F6A-027D-48FF-853C-FE2E8C66B4AC}
 		{0ED938F7-2E25-4711-BDB7-18C681EF2EC4} = {1F190F6A-027D-48FF-853C-FE2E8C66B4AC}
+		{F3D926F4-4141-4CC9-99C4-B4742600B93F} = {1F190F6A-027D-48FF-853C-FE2E8C66B4AC}
 	EndGlobalSection
 EndGlobal
