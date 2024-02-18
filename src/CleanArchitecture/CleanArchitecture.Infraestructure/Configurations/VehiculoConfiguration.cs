@@ -1,3 +1,4 @@
+using CleanArchitecture.Domain.Abstractions;
 using CleanArchitecture.Domain.Shared;
 using CleanArchitecture.Domain.Vehiculos;
 using Microsoft.EntityFrameworkCore;
@@ -35,5 +36,6 @@ internal sealed class VehiculoConfiguration : IEntityTypeConfiguration<Vehiculo>
             .HasConversion(tipoMoneda => tipoMoneda.Codigo, codigo => TipoMoneda.FromCodigo(codigo!));
         });
 
+        builder.Property<uint>("Version").IsRowVersion();
     }
 }
