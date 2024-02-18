@@ -6,6 +6,7 @@ using CleanArchitecture.Domain.Abstractions;
 using CleanArchitecture.Domain.Alquileres;
 using CleanArchitecture.Domain.Users;
 using CleanArchitecture.Domain.Vehiculos;
+using CleanArchitecture.Application.Exceptions;
 
 namespace CleaArchitecture.Application.Alquileres.ReservarAlquiler;
 
@@ -17,7 +18,7 @@ internal sealed class ReservarAlquilerCommandHandler : ICommandHandler<ReservarA
     private readonly IAlquilerRepository _alquilerRepository;
     private readonly PrecioService _precioService;
     private readonly IUnitOfWork _unitOFWork;
-     private readonly IDateTimeProvider _dateTimeProvider;
+    private readonly IDateTimeProvider _dateTimeProvider;
 
     public ReservarAlquilerCommandHandler(
         IUserRepository userRepository,
@@ -64,19 +65,27 @@ internal sealed class ReservarAlquilerCommandHandler : ICommandHandler<ReservarA
         {
             return Result.Failure<Guid>(AlquilerErrors.Overlap);
         }
+        
+        try
+        {
 
-        //si pasamos las validaciones-- entonces ya puedo crear el alquiler
-        var alquiler = Alquiler.Reservar(vehiculo,
-        user.Id,
-        duracion,
-        _dateTimeProvider.currentTime,  // DateTime.UtcNow,  // lo vamos a hacer con una interfaz , esto se hace para que sea testeable con unit mocks
-        _precioService
-        );
+            //si pasamos las validaciones-- entonces ya puedo crear el alquiler
+            var alquiler = Alquiler.Reservar(vehiculo,
+            user.Id,
+            duracion,
+            _dateTimeProvider.currentTime,  // DateTime.UtcNow,  // lo vamos a hacer con una interfaz , esto se hace para que sea testeable con unit mocks
+            _precioService
+            );
 
-        //ya podemos agregar el alquiler al repositorio
-        await _unitOFWork.SaveChangesAsync(cancellationToken);
+            //ya podemos agregar el alquiler al repositorio
+            await _unitOFWork.SaveChangesAsync(cancellationToken);
 
-        return alquiler.Id;
+            return alquiler.Id;
+        }
+        catch (ConcurrencyException )
+        {
+            return Result.Failure<Guid>(AlquilerErrors.Overlap);
+        }
     }
 
 
