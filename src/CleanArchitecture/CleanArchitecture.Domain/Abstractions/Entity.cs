@@ -2,6 +2,10 @@ namespace CleanArchitecture.Domain.Abstractions;
 
 public abstract class Entity  // Abstract porque no puede crear objetos, pero los hijos que se hereden si lo podrán
 {
+    protected Entity()
+    {
+
+    }
     private readonly List<IDomainsEvent> _domainEvents = new();
 
     //Cuando queramos crear una entidad se creará enviando este id

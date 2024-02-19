@@ -1,9 +1,3 @@
-C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraestructure\obj\Debug\net8.0\CleanArchitecture.Infraestructure.csproj.AssemblyReference.cache
-C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraestructure\obj\Debug\net8.0\CleanArchitecture.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraestructure\obj\Debug\net8.0\CleanArchitecture.Infraestructure.AssemblyInfoInputs.cache
-C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraestructure\obj\Debug\net8.0\CleanArchitecture.Infraestructure.AssemblyInfo.cs
-C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraestructure\obj\Debug\net8.0\CleanArchitecture.Infraestructure.csproj.CoreCompileInputs.cache
-C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraestructure\obj\Debug\net8.0\CleanArchitecture.Infraestructure.sourcelink.json
 C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraestructure\bin\Debug\net8.0\CleanArchitecture.Infraestructure.deps.json
 C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraestructure\bin\Debug\net8.0\CleanArchitecture.Infraestructure.runtimeconfig.json
 C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraestructure\bin\Debug\net8.0\CleanArchitecture.Infraestructure.dll
@@ -12,6 +6,12 @@ C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraest
 C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraestructure\bin\Debug\net8.0\CleanArchitecture.Domain.dll
 C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraestructure\bin\Debug\net8.0\CleanArchitecture.Application.pdb
 C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraestructure\bin\Debug\net8.0\CleanArchitecture.Domain.pdb
+C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraestructure\obj\Debug\net8.0\CleanArchitecture.Infraestructure.csproj.AssemblyReference.cache
+C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraestructure\obj\Debug\net8.0\CleanArchitecture.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraestructure\obj\Debug\net8.0\CleanArchitecture.Infraestructure.AssemblyInfoInputs.cache
+C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraestructure\obj\Debug\net8.0\CleanArchitecture.Infraestructure.AssemblyInfo.cs
+C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraestructure\obj\Debug\net8.0\CleanArchitecture.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraestructure\obj\Debug\net8.0\CleanArchitecture.Infraestructure.sourcelink.json
 C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraestructure\obj\Debug\net8.0\CleanArc.937C8F9D.Up2Date
 C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraestructure\obj\Debug\net8.0\CleanArchitecture.Infraestructure.dll
 C:\Code\Udemy\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Infraestructure\obj\Debug\net8.0\refint\CleanArchitecture.Infraestructure.dll

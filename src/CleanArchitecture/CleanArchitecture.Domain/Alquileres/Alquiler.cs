@@ -8,6 +8,10 @@ namespace CleanArchitecture.Domain.Alquileres;
 
 public sealed class Alquiler : Entity
 {
+    private Alquiler()
+    {
+
+    }
     private Alquiler(  // es privado porque solo un metodo estatico puede consumir este metodo
         Guid id,
         Guid vehiculoId,

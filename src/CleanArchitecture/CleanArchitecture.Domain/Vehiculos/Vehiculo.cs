@@ -6,6 +6,12 @@ namespace CleanArchitecture.Domain.Vehiculos;
 public sealed class Vehiculo : Entity  // sealed porque no queremos que esta clase sea heredada
 
 {
+
+    private Vehiculo()
+    {
+
+    }
+
     public Vehiculo(Guid id,
     Modelo modelo,
     Vin vin,
